@@ -1,4 +1,5 @@
 'use strict'
+require('dotenv').config()
 
 const Bell = require('@hapi/bell')
 const Boom = require('@hapi/boom')
