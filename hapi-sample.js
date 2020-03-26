@@ -20,6 +20,7 @@ internals.start = async function () {
   server.auth.strategy('session', 'cookie', {
     cookie: {
       name: 'sid-demo',
+      path: '/',
       password: 'cookie_encryption_password_secure',
       isSecure: false, // Should be set to true (which is the default) in production
       isSameSite: 'Lax',
